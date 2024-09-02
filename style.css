@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.term {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+    background: #1c1c1c;
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 69, 0, 0.5);
+    background-image: url('https://example.com/jujutsu-kaisen-background.jpg');
+    background-size: cover;
+    background-position: center;
+}

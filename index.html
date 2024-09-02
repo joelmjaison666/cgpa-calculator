@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <form id="cgpaForm">
+            <div id="termsContainer">
+                <div class="term">
+                    <h2>Term 1</h2>
+                    <label for="credits1">Credits:</label>
+                    <input type="number" id="credits1" class="credits" required>
+                    <label for="gradePoints1">Grade Points:</label>
+                    <input type="number" id="gradePoints1" class="gradePoints" required>
+                </div>
+            </div>
+            <button type="button" id="addTerm">Add Term</button>
+            <button type="submit">Calculate CGPA</button>
+        </form>
+        <div id="results">
+            <h2>Results</h2>
+            <p id="sgpa"></p>
+            <p id="cgpa"></p>
+            <p id="percentage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
